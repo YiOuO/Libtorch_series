@@ -3,6 +3,7 @@ project(LibTorchExample)
 
 # 设置 C++ 标准
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 
 # 手动指定 libtorch 的路径
 set(Torch_DIR "/home/yi/cuda/libtorch/share/cmake/Torch")
